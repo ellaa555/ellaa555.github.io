@@ -261,3 +261,27 @@ footer p {
 }
 
 /** button */
+button#darkMode {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button#darkModeToggle:hover {
+    background-color: #e02b73;
+    transform: scale(1.05);
+}
+
+body.dark-mode button#darkModeToggle {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-mode button#darkModeToggle:hover {
+    background-color: #555;
+}
