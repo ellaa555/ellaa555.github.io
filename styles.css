@@ -307,6 +307,32 @@ td {
 }
 
 
+.edulist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.edulist li {
+    margin-bottom: 20px;
+}
+
+.edulist h3 {
+    font-size: 24px;
+    font-family: 'JustSugar', sans-serif;
+    color: #e02b73;
+    margin-bottom: 5px;
+}
+
+.edulist p {
+    font-size: 16px;
+    color: #121212;
+    margin: 5px 0;
+}
+
+.edulist strong {
+    color: #e02b73;
+}
+
 
 
 
