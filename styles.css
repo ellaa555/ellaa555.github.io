@@ -333,7 +333,42 @@ td {
     color: #e02b73;
 }
 
+#skills {
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 900px;
+    background-color: #fccdd4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.skillsCat {
+    margin-bottom: 30px;
+}
+
+.skillsCat h3 {
+    font-size: 24px;
+    font-family: 'JustSugar', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skillsCat ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skillsCat li {
+    font-size: 16px;
+    color: #666;
+    padding: 5px 0;
+}
+
+.skillsCat li:hover {
+    color: #ff69b4;
+    cursor: pointer;
+}
 
 
 /* dark mode */
