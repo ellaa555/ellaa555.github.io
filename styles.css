@@ -1,1 +1,106 @@
 /*Styles for portfolio webpage */
+
+
+header {
+    background-color: #ffb6c1;
+    /* Soft pastel pink */
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    margin: 0 25px;
+    position: relative
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: JustSugar;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    display: block;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff69b4;
+    /* Hot pink */
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+/* cloud effect on page load */
+#clouds {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+}
+
+.cloud {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: moveclouds 15s linear infinite;
+    /* box-shadow: 0 0 200px 100px #fff;*/
+}
+
+.cloud1 {
+    width: 200px;
+    height: 120px;
+    left: 20%;
+    top: 50%;
+    animation-duration: 20s;
+}
+
+.cloud2 {
+    width: 220px;
+    height: 130px;
+    left: 60%;
+    top: 30%;
+    animation-duration: 18s;
+}
+
+.cloud3 {
+    width: 180px;
+    height: 110px;
+    left: 40%;
+    top: 70%;
+    animation-duration: 22s;
+}
+
+/* keyframes for cloud movement */
+@keyframes moveclouds {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/**fonts**/
+@font-face {
+    font-family: 'JustSugar';
+    src: url(fonts/JustSugar.ttf);
+}
