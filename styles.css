@@ -127,3 +127,22 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     min-height: 300px;
 }
+
+h1.dropdown-head {
+    font-size: 32px;
+    font-family: JustSugar;
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 20px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+h1.dropdown-head:hover {
+    background-color: #ff69b4;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
