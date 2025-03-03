@@ -211,3 +211,53 @@ h1.dropdown-head:hover {
     color: #333;
     transition: max-height 0.3s ease;
 }
+
+/* dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+header.dark-mode {
+    background-color: #333;
+}
+
+footer.dark-mode {
+    background-color: #333;
+    color: f1f1f1;
+}
+
+button#darkMode:hover {
+    background-color: #e02b73;
+
+}
+
+body.dark-mode button#darkMode {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-mode button#darkMode:hover {
+    background-color: #555
+}
+
+/** footer styling */
+footer {
+    background-color: #ffb6c1;
+    color: #e02b73;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9999;
+    font-family: JustSugar;
+    border-top: 2px solid #ff69b4;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/** button */
