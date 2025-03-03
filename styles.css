@@ -1,4 +1,28 @@
 /*Styles for portfolio webpage */
+h3.typewrite {
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    font-family: JustSugar;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    width: 0;
+    animation: typing 5s steps(23) 1s forwards, blink .75s step-end infinite;
+}
+
+@keyframes typing {
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 /**fonts**/
 @font-face {
     font-family: 'JustSugar';
