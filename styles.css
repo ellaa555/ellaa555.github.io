@@ -212,6 +212,35 @@ h1.dropdown-head:hover {
     transition: max-height 0.3s ease;
 }
 
+
+
+/* table styling for projects */
+.projectTab {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.projectTab th,
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ff69b4;
+}
+
+.projectTab th {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+.projectTab td {
+    background-color: #fccdd4;
+}
+
+.projectCard {}
+
+
+
 /* dark mode */
 body.dark-mode {
     background-color: #121212;
