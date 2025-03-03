@@ -237,7 +237,52 @@ td {
     background-color: #fccdd4;
 }
 
-.projectCard {}
+/* Styling for the Project Cards */
+.projectCard {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectCard h3 {
+    font-size: 20px;
+    font-family: 'JustSugar', sans-serif;
+    color: #333;
+}
+
+.projectCard p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.projectCard button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.projectCard button:hover {
+    background-color: #e02b73;
+}
+
+/* Hover effect on project cards */
+.projectCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 
 
 
