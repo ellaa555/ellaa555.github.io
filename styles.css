@@ -190,6 +190,18 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
 nav ul li a:hover {
     background-color: #ff69b4;
     /* Hot pink */
@@ -334,6 +346,10 @@ td {
 }
 
 #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 50px;
     margin: 50px auto;
     max-width: 900px;
@@ -342,33 +358,6 @@ td {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.skillsCat {
-    margin-bottom: 30px;
-}
-
-.skillsCat h3 {
-    font-size: 24px;
-    font-family: 'JustSugar', sans-serif;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.skillsCat ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.skillsCat li {
-    font-size: 16px;
-    color: #121212;
-    padding: 5px 0;
-}
-
-.skillsCat li:hover {
-    color: #ff69b4;
-    cursor: pointer;
-}
 
 
 /* dark mode */
