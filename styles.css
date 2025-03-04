@@ -437,3 +437,28 @@ body.dark-mode button#darkModeToggle:hover {
 strong {
     color: #e02b73;
 }
+
+/** socials */
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.sociallink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e02b73;
+    font-size: 18px;
+
+}
+
+.socialicon {
+    width: 30px;
+    height: 30px;
+    ;
+
+}
