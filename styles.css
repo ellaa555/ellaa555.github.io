@@ -361,7 +361,7 @@ td {
 
 .skillsCat li {
     font-size: 16px;
-    color: #666;
+    color: #121212;
     padding: 5px 0;
 }
 
@@ -443,4 +443,8 @@ body.dark-mode button#darkModeToggle {
 
 body.dark-mode button#darkModeToggle:hover {
     background-color: #555;
+}
+
+strong {
+    color: #e02b73;
 }
